@@ -1,0 +1,64 @@
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+header nav a img {
+    width: 20%;
+}
+
+#boton_descarga{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+
+.caja {
+    height: 100vh;
+    background-image: url(../images/cabecera_moviles.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#texto{
+    margin-top: 25rem;
+}
+
+
+.logo{
+    width: 15%;
+    height: 15%;
+}
+
+#iconos2 {
+    display: none !important;
+}
+
+@media (max-width: 767px) {
+    #texto_cabecera {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #boton_descarga {
+        width: 30%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #iconos1desaparecer {
+        display: none;
+    }
+
+    #iconos2 {
+        display: flex !important;
+    }
+
+    #iconos3desaparecer {
+        display: none;
+    }
+}
