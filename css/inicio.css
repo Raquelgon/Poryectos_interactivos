@@ -1,39 +1,76 @@
-.container-fluid{
-    padding-right: 0px;
-    padding-left: 0px;
+#cabeza {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/cabecera_movil.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header nav{
+    background-color: #FFFDE7;
 }
 
 header nav a img {
     width: 20%;
+    margin-left: 2rem;
 }
 
-#boton_descarga{
+#contacto_margin{
+    margin-right: 2rem;
+}
+
+#texto {
+    margin-top: 25rem;
+}
+
+#boton_descarga {
     margin-top: 5rem;
     width: 50%;
 }
 
-
-.caja {
-    height: 100vh;
-    background-image: url(../images/cabecera_moviles.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+#cuerpo{
+    background-color: #FFFDE7;
 }
 
-#texto{
-    margin-top: 25rem;
-}
-
-
-.logo{
+.logo {
     width: 15%;
     height: 15%;
+    margin-top: 10rem;
+}
+
+#video{
+    margin-top: 20rem;
+}
+
+.iconos_tamano figure{
+    width: 50%;
+}
+
+figure figcaption{
+    text-align:center;
+    margin-top: 1rem;
+}
+
+.iconos{
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
 }
 
 #iconos2 {
     display: none !important;
+}
+
+#pie{
+    margin-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+@media (max-width: 767px) {
+    #cabeza {
+        background-image: url("../images/cabecera.jpg");
+    }
 }
 
 @media (max-width: 767px) {

@@ -16,7 +16,7 @@
 
 <body>
     <div class="container-fluid">
-        <div class="caja">
+        <div id="cabeza">
             <header class="row">
                 <nav class="navbar navbar-expand-md fixed-top">
                     <a class="navbar-brand" href="#"><img src="images/logo_destina.svg" class="img-fluid" alt="Logo Destina"></a>
@@ -32,7 +32,7 @@
                                 <a class="nav-link" href="#">Conócenos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contacto</a>
+                                <a id="contacto_margin" class="nav-link" href="#">Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -51,41 +51,76 @@
                     <a href="#"><img id="boton_descarga" src="images/boton_descarga.svg" class="img-fluid" alt="Botón descarga"></a>
                 </div>
             </div>
-             </div>
+        </div>
+        <div id="cuerpo">
             <br>
-            <div class="row d-flex justify-content-around align-items-center">
+            <div class="row d-flex justify-content-around align-items-center col-sm-12 col-md-10 offset-sm-0 offset-md-1">
                 <img src="images/vectalia.png" class="logo" alt="Icono 1">
                 <img src="images/tram.png" class="logo" alt="Icono 2">
                 <img src="images/tam.png" class="logo" alt="Icono 3">
                 <img src="images/subus.png" class="logo" alt="Icono 4">
             </div>
-       
-        <div class="row">
-            <div class="col-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=fJ9rUzIMcZQ" frameborder="0" allowfullscreen></iframe>
+
+            <div id="video" class="row">
+                <div class="col-10 offset-1">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=fJ9rUzIMcZQ" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
+            <div id="iconos1" class="row iconos_tamano">
+                <div class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/tiempo.png" class="iconos" alt="Ahorra tiempo">
+                        <figcaption>Ahorra Tiempo</figcaption>
+                    </figure>
+                </div>
+                <div class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/incidencias.png" class="iconos" alt="Consulta incidencias">
+                        <figcaption>Consulta incidencias</figcaption>
+                    </figure>
+                </div>
+                <div id="iconos1desaparecer" class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/destino.png" class="iconos" alt="Personaliza tu destino">
+                        <figcaption>Personaliza tu destino</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div id="iconos2" class="row iconos_tamano">
+                <div class="col-11 col-sm-5 offset-1">
+                    <figure><img src="images/destino.png" class="iconos" alt="Personaliza tu destino">
+                        <figcaption>Personaliza tu destino</figcaption>
+                    </figure>
+                </div>
+                <div class="col-11 col-sm-5 offset-1">
+                    <figure><img src="images/qr.png" class="iconos" alt="Consulta los CÓDIGOS QR">
+                        <figcaption>Consulta los CÓDIGOS QR</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div id="iconos3" class="row d-flex iconos_tamano">
+                <div id="iconos3desaparecer" class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/qr.png" class="iconos" alt="Consulta los CÓDIGOS QR">
+                        <figcaption>Consulta los CÓDIGOS QR</figcaption>
+                    </figure>
+                </div>
+                <div class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/internet.png" class="iconos" alt="Viaja sin internet">
+                        <figcaption>Viaja sin internet</figcaption>
+                    </figure>
+                </div>
+                <div class="col-11 col-sm-5 col-md-3 offset-1">
+                    <figure><img src="images/paga.png" class="iconos" alt="Paga al instante">
+                        <figcaption>Paga al instante</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <footer id="pie">
+                <div class="row text-center">
+                    <div class="col">© DESTINA 2022</div>
+                    <div class="col">Danos tu OPINIÓN</div>
+                </div>
+            </footer>
         </div>
-
-        <div id="iconos1" class="row d-flex justify-content-around">
-            <img src="..." class="img-fluid" alt="Ahorra tiempo">
-            <img src="..." class="img-fluid" alt="Consulta incidencias">
-            <img id="iconos1desaparecer" src="..." class="img-fluid" alt="Personaliza tu destino">
-        </div>
-        <div id="iconos2" class="row d-flex justify-content-around">
-            <img src="..." class="img-fluid" alt="Personaliza tu destino">
-            <img src="..." class="img-fluid" alt="Consulta los CÓDIGOS QR">
-        </div>
-        <div id="iconos3" class="row d-flex justify-content-around">
-            <img id="iconos3desaparecer" src="..." class="img-fluid" alt="Consulta los CÓDIGOS QR">
-            <img src="..." class="img-fluid" alt="Paga al instante">
-            <img src="..." class="img-fluid" alt="Viaja sin internet">
-        </div>
-        <footer class"row">
-            <div class="col">© DESTINA 2022</div>
-            <div class="col">Danos tu OPINIÓN</div>
-        </footer>
     </div>
 </body>
 
