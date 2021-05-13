@@ -1,5 +1,4 @@
 #cabeza {
-    width: 100vw;
     height: 100vh;
     background-image: url("../images/cabecera_movil.jpg");
     background-position: center;
@@ -7,16 +6,24 @@
     background-size: cover;
 }
 
-header nav{
-    background-color: #FFFDE7;
-}
-
 header nav a img {
     width: 20%;
     margin-left: 2rem;
 }
 
-#contacto_margin{
+header nav div ul {
+    font-weight: bold;
+}
+
+header nav div ul li a {
+    color: #1A237E;
+}
+
+header nav div ul li a:hover {
+    color: #FFF176;
+}
+
+#contacto_margin {
     margin-right: 2rem;
 }
 
@@ -24,13 +31,24 @@ header nav a img {
     margin-top: 25rem;
 }
 
+#texto a{
+    margin-left: 5rem;
+}
+
+#texto_cabecera h1{
+    font-weight: bold;
+    color: #1A2373;
+    font-size: 45px;
+}
+
+#texto_cabecera p{
+    color: #7986CB;
+    font-size: 30px;
+}
+
 #boton_descarga {
     margin-top: 5rem;
     width: 50%;
-}
-
-#cuerpo{
-    background-color: #FFFDE7;
 }
 
 .logo {
@@ -39,20 +57,23 @@ header nav a img {
     margin-top: 10rem;
 }
 
-#video{
+#video {
     margin-top: 20rem;
 }
 
-.iconos_tamano figure{
+.iconos_tamano figure {
     width: 50%;
 }
 
-figure figcaption{
-    text-align:center;
+figure figcaption {
+    text-align: center;
     margin-top: 1rem;
+    font-weight: bold;
+    font-size: 2vw;
+    color: #1A2373;
 }
 
-.iconos{
+.iconos {
     width: 100%;
     height: 100%;
     margin-top: 10rem;
@@ -62,9 +83,37 @@ figure figcaption{
     display: none !important;
 }
 
-#pie{
+#pie {
     margin-top: 10rem;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+}
+
+#pie hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #F8BBD0;
+}
+
+#pie div div{
+    font-size: 1vw;
+    color: #F8BBD0;
+}
+
+#pie div div span{
+    font-weight: bold;
+}
+
+#pie div div a{
+    color: #F8BBD0;
+}
+
+#pie div div a:hover{
+    color: #7986CB;
 }
 
 @media (max-width: 767px) {

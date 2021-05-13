@@ -5,5 +5,6 @@
 html, body{
     margin: 0px;
     padding: 0px;
-    font-family: 'hind', sans-serif !important;
+    font-family: 'hind', sans-serif;
+    background-color: #FFFDE7;
 }
