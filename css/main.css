@@ -8,3 +8,63 @@ html, body{
     font-family: 'hind', sans-serif;
     background-color: #FFFDE7;
 }
+
+header nav a img {
+    width: 20%;
+    margin-left: 2rem;
+}
+
+header nav div ul {
+    font-weight: bold;
+}
+
+header nav div ul li a {
+    color: #1A237E;
+}
+
+header nav div ul li a:hover {
+    color: #FFF176;
+}
+
+#contacto_margin {
+    margin-right: 2rem;
+}
+
+#pie {
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+}
+
+#pie hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #F8BBD0;
+}
+
+#pie div div{
+    font-size: 1vw;
+    color: #F8BBD0;
+}
+
+#pie div div span{
+    font-weight: bold;
+}
+
+#pie div div a{
+    color: #F8BBD0;
+}
+
+#pie div div a:hover{
+    color: #7986CB;
+}
+
+@media (max-width: 767px) {
+    #pie div div {
+        font-size: 2vw;
+    }
+}

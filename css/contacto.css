@@ -1,0 +1,69 @@
+#cabeza {
+    height: 100vh;
+    background-image: url("../images/cabecera.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#texto {
+    margin-top: 25rem;
+}
+
+#texto a {
+    margin-left: 5rem;
+}
+
+#texto_cabecera h1 {
+    font-weight: bold;
+    color: #1A2373;
+    font-size: 45px;
+}
+
+#texto_cabecera p {
+    color: #7986CB;
+    font-size: 30px;
+}
+
+.texto_cuerpo{
+    margin-top: 6rem;
+}
+
+.texto_cuerpo div p {
+    color: #1A2373;
+    font-size: 2vw;
+}
+
+.texto_cuerpo div p a{
+    color: #1A2373;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+#imagen_contacto{
+    width: 100vw;
+}
+
+#pie{
+    margin-top: 2rem;
+}
+
+@media (max-width: 767px) {
+    #cabeza header nav a img {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #texto {
+        margin-top: 15rem;
+    }
+}
+
+@media (max-width: 767px) {
+    #texto div p {
+        display: none;
+    }
+}
